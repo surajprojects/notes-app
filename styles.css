@@ -1,0 +1,149 @@
+body {
+    background-color: #fffcf2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 10rem;
+}
+
+#containerHead {
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+#formTitle,
+#formContent {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0rem;
+}
+
+#title,
+#content {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+}
+
+#formBtn {
+    display: flex;
+    justify-content: center;
+}
+
+#btnAdd,
+#btnRefresh,
+#btnClearAll,
+#btnSave,
+#btnCancel {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.6rem;
+}
+
+#btnAdd:hover,
+#btnRefresh:hover,
+#btnClearAll:hover,
+#btnSave:hover,
+#btnCancel:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+
+#btnSave {
+    margin-right: 1rem;
+    background-color: #3a86ff;
+    color: #fdfcdc;
+}
+
+#btnCancel,
+#btnClearAll {
+    background-color: #ef233c;
+    color: #edf2f4;
+}
+
+#btnRefresh {
+    background-color: #2a9d8f;
+    color: #edf2f4;
+    margin-right: 0.5rem;
+}
+
+#btnAdd {
+    background-color: #fb8b24;
+    color: #fefae0;
+}
+
+#allNotes {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.showNote {
+    width: 40rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 4px #ffb703;
+    background-color: #fcfffd;
+}
+
+.showNote:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 4px #00a6fb;
+}
+
+#showTitle {
+    font-size: 1.8rem;
+    margin: 1.5rem;
+}
+
+#showContent {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+#allNotesHeading {
+    text-decoration: underline;
+    margin-bottom: 0rem;
+}
+
+#addNote {
+    padding-top: 2rem;
+}
+
+#msg {
+    font-style: italic;
+}
+
+#noteHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnDelete {
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+#btnDelete:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px #e8e8e8;
+    border-radius: 5px;
+}
